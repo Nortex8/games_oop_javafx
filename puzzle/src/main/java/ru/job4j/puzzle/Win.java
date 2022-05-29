@@ -28,6 +28,5 @@ public class Win {
         return false;
     }
 }
-// проверка на коммит
 
 
