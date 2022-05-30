@@ -10,9 +10,9 @@ public class Win {
         return true;
     }
 
-    public static boolean monoVertical (int[][] board, int column){
-        for (int[] ints : board) {
-            if (ints[column] != 1) {
+    public static boolean monoVertical(int[][] board, int column) {
+        for (int row = 0; row < board.length; row++) {
+            if (board[row][column] != 1) {
                 return false;
             }
         }
